@@ -6,7 +6,6 @@ df = data.frame(
    Approved = c(1, 0, 1, 0, 1, 1, 0, 1, 0, 1)
 )
 
-plot(df$Income~df$LoanAmount)
 # View the dataset
 print(df)
 
