@@ -13,7 +13,6 @@ linear_model = lm(Y ~ X, data = df)
 
 # Print summary of the model
 summary(linear_model)
-anova(linear_model)
 
 # Create a scatter plot
 plot(X, Y, 
